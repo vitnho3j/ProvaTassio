@@ -1,58 +1,6 @@
-{
-	"id": 0,
-	"name": "Product Number 0",
-	"image": "//imagens.pontofrio.com.br/Control/ArquivoExibir.aspx?IdArquivo=6670538",
-	"oldPrice": 363,
-	"price": 332,
-	"description": "Product long description number 0 just to make more than one like of text.",
-}, {
-	"id": 1,
-	"name": "Product Number 1",
-	"image": "//imagens.pontofrio.com.br/Control/ArquivoExibir.aspx?IdArquivo=6829307",
-	"oldPrice": 104,
-	"price": 76,
-	"description": "Product long description number 1 just to make more than one like of text.",
-}, {
-	"id": 2,
-	"name": "Product Number 2",
-	"image": "//imagens.pontofrio.com.br/Control/ArquivoExibir.aspx?IdArquivo=6506376",
-	"oldPrice": 154,
-	"price": 134,
-	"description": "Product long description number 2 just to make more than one like of text.",
-}, {
-	"id": 3,
-	"name": "Product Number 3",
-	"image": "//imagens.pontofrio.com.br/Control/ArquivoExibir.aspx?IdArquivo=6584703",
-	"oldPrice": 292,
-	"price": 272,
-	"description": "Product long description number 3 just to make more than one like of text.",
-}, {
-	"id": 4,
-	"name": "Product Number 4",
-	"image": "//imagens.pontofrio.com.br/Control/ArquivoExibir.aspx?IdArquivo=6875461",
-	"oldPrice": 139,
-	"price": 92,
-	"description": "Product long description number 4 just to make more than one like of text.",
-}, {
-	"id": 5,
-	"name": "Product Number 5",
-	"image": "//imagens.pontofrio.com.br/Control/ArquivoExibir.aspx?IdArquivo=6624363",
-	"oldPrice": 112,
-	"price": 68,
-	"description": "Product long description number 5 just to make more than one like of text.",
-}, {
-	"id": 6,
-	"name": "Product Number 6",
-	"image": "//imagens.pontofrio.com.br/Control/ArquivoExibir.aspx?IdArquivo=6670538",
-	"oldPrice": 140,
-	"price": 114,
-	"description": "Product long description number 6 just to make more than one like of text.",
-}, {
-	"id": 7,
-	"name": "Product Number 7",
-	"image": "//imagens.pontofrio.com.br/Control/ArquivoExibir.aspx?IdArquivo=6584703",
-	"oldPrice": 213,
-	"price": 201,
-	"description": "Product long description number 7 just to make more than one like of text.",
-	}
-}]
+INSERT INTO product(id, name, image, old_price, price, description)
+VALUES (0, 'Product Number 0', '//imagens.pontofrio.com.br/Control/ArquivoExibir.aspx?IdArquivo=6670538', 363, 332, 'Product long description number 0 just to make more than one like of text.');
+INSERT INTO product(id, name, image, old_price, price, description)
+VALUES (1, 'Product Number 1', '//imagens.pontofrio.com.br/Control/ArquivoExibir.aspx?IdArquivo=6829307', 104, 76, 'Product long description number 1 just to make more than one like of text.');
+INSERT INTO product(id, name, image, old_price, price, description)
+VALUES (2, 'Product Number 2', '//imagens.pontofrio.com.br/Control/ArquivoExibir.aspx?IdArquivo=6506376', 154, 134, 'Product long description number 2 just to make more than one like of text.');

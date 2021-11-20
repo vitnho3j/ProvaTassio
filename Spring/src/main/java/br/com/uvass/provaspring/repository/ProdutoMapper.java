@@ -14,7 +14,7 @@ public class ProdutoMapper implements RowMapper<Product> {
         product.setId(resultSet.getInt("id"));
         product.setName(resultSet.getNString("name"));
         product.setImage(resultSet.getNString("image"));
-        product.setOldPrice(resultSet.getFloat("oldPrice"));
+        product.setOldPrice(resultSet.getFloat("old_price"));
         product.setPrice(resultSet.getFloat("price"));
         product.setDescription(resultSet.getNString("description"));
         return product;

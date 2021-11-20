@@ -15,7 +15,7 @@ public class ProdutoRepository {
     }
 
     public List<Product> listarTodos(){
-        return jdbcTemplate.query("select * from produto", new ProdutoMapper());
+        return jdbcTemplate.query("select * from product", new ProdutoMapper());
     }
 
 }
