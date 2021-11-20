@@ -1,0 +1,112 @@
+article{
+    display: grid;
+    grid-auto-rows: 0.2fr 0.8fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:"header header header header header"
+                        "carousel carousel carousel carousel carousel"
+                        "section section section section section"
+                        "footer footer footer footer footer"
+}
+
+header {
+    padding-left: 100px;
+    grid-area: header;
+}
+
+footer{
+    padding-left: 100px;
+    display: grid;
+    grid-area: footer;
+    background-color: #011627;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "LC LC LC LC LC"
+                         "SP RJ bt crt prd"
+
+}
+
+section{
+    padding-left: 100px;
+    grid-area: section;
+}
+
+carousel{
+    padding-left: 100px;
+    background-color: #011627;
+    grid-area: carousel;
+}
+
+.SP{
+    color: #FFFFFF;
+    grid-area: SP;
+}
+
+.RJ{
+    color: #FFFFFF;
+    grid-area: RJ;
+}
+
+.LC{
+    color: #FFFFFF;
+    grid-area: LC;
+}
+
+.localization{
+
+    width: 44px;
+    height: 0px;
+    left: 380px;
+    bottom: 157px;
+
+    border: 5px solid #FF9F1C;
+
+}
+
+.buttonContato{
+    grid-area: bt;
+    width: 300px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    background-color: #FF9F1C;
+    text-align: center;
+    line-height:70px;
+    height: 70px;
+}
+
+.buttonConsulter{
+    grid-area: bc;
+    width: 300px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    background-color: #FF9F1C;
+    text-align: center;
+    height: 70px;
+    line-height:35px;
+}
+
+.created{
+    padding-top: 100px;
+    color:#FFFFFF;
+    padding-left: 180px;
+    grid-area: crt;
+}
+
+.powered{
+    padding-top: 100px;
+    color:#FFFFFF;
+    padding-left: 10px;
+    grid-area: prd;
+}
+
+.align{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "bt crt";
+}
+
+
+
+
+
+
+
+
