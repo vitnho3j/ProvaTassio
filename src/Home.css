@@ -9,8 +9,10 @@ article{
 }
 
 header {
+    display: grid;
     padding-left: 100px;
     grid-area: header;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 footer{
@@ -103,10 +105,41 @@ carousel{
     grid-template-areas: "bt crt";
 }
 
+.headerSearch{
+    height: 30px;
+    padding-top: 22px;
+}
 
+.pHeader{
+    padding-top: 15px;
+    padding-left: 150px;
+    margin-left: 15px;
+}
 
+.verticalLine{
+    align-self: center;
+    height: 40px;
+    border-left: thick solid #7A7A7A;
+}
 
+.logo{
+    height: 80px;
+    width: 80px;
+}
 
+.inputSearch{
+    width: 200px;
+    border: none;
+    border-bottom:2px solid #7A7A7A;
+}
 
+.icon{
+    padding-left: 180px;
+    align-items: center;
+}
+
+.rightNav icon{
+    display: flex;
+}
 
 
