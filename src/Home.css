@@ -33,8 +33,11 @@ section{
 
 carousel{
     padding-left: 100px;
-    background-color: #011627;
     grid-area: carousel;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color:#011627;
 }
 
 .SP{
@@ -142,4 +145,12 @@ carousel{
     display: flex;
 }
 
+.bannerImage{
+    height:310px;
+    width: 700px;
 
+}
+
+.textImage{
+    color: #FFFFFF;
+}
