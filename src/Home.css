@@ -76,6 +76,15 @@ carousel{
     line-height:70px;
     height: 70px;
 }
+.buttonComprar{
+    color:#FFFFFF;
+    width: 200px;
+    background-color: #2EC4B6;
+    border-radius: 10px;
+    text-align: center;
+    height: 30px;
+    margin-bottom: 10px;
+}
 
 .buttonConsulter{
     grid-area: bc;
@@ -153,4 +162,29 @@ carousel{
 
 .textImage{
     color: #FFFFFF;
+}
+
+.textProdutos{
+    grid-area: text;
+    color: #011627;
+}
+
+.productImage{
+    height: 100px;
+    width: 100px;
+}
+
+.Components{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "text text text"
+                        "product product product"
+}
+
+.productName{
+    color: #7A7A7A;
+}
+
+.ProductPrice{
+    color: #2EC4B6;
 }

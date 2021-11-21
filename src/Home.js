@@ -13,7 +13,11 @@ export default class Home extends Component{
        <article>
            <Header />
            <Carousel />
-           <section>
+           <section class="Components">
+               <div class="textProdutos">
+                   <h1> Produtos </h1>
+                   <hr align={"left"} className={"localization"}></hr>
+               </div>
                <UserComponent />
            </section>
            <Footer />
