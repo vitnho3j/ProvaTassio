@@ -3,6 +3,8 @@ import './Home.css'
 import Header from "./Header";
 import Footer from "./Footer"
 import Carousel from "./Carousel"
+import UserComponent from "./components/UserComponent";
+
 
 export default class Home extends Component{
 
@@ -12,7 +14,7 @@ export default class Home extends Component{
            <Header />
            <Carousel />
            <section>
-               <h1>Aqui será a section</h1>
+               <UserComponent />
            </section>
            <Footer />
        </article>
